@@ -92,12 +92,6 @@ end
 --- @param loadChapters boolean
 --- @return NovelInfo
 local function parseNovel(novelURL, loadChapters)
-	if novelURL:match("^how") then
-		return NovelInfo {
-			title = "How to use this source v2",
-			description = "You can use this source by:\n1. searching on the ArchiveOfOurOwn.org website and inputting the url of the work in the search bar.\n2. Setting your queries on the ArchiveOfOurOwn.org website and copying the search to the search bar."
-		}
-	end
 
 	local document = GETDocumentAdult(expandURL(novelURL))
 	local title = document:selectFirst(".title"):text()
