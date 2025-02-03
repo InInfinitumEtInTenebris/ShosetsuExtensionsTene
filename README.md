@@ -4,7 +4,7 @@ Personal extensions for Shosetsu
 
 #### Add the repo to Shosetsu using this Url:
 
-https://raw.githubusercontent.com/InInfinitumEtInTenebris/ShosetsuExtensions/master
+https://raw.githubusercontent.com/InInfinitumEtInTenebris/ShosetsuExtensionsTene/master
 
 
 ### Repo Extensions
