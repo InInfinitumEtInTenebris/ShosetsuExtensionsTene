@@ -1,4 +1,4 @@
--- {"id":1308639964,"ver":"1.1.5","libVer":"1.0.0","author":"Jobobby04","dep":["ReadWN>=1.0.11"]}
+-- {"id":1308639964,"ver":"1.1.5","libVer":"1.0.0","author":"unknownazzwipe","dep":["ReadWN>=1.0.11"]}
 
 local GENRES = {
     "All",
@@ -62,7 +62,7 @@ local GENRES = {
 }
 
 return Require("ReadWN")("https://www.fanmtl.com", {
-    id = 1308639964,
+    id = 1308639968,
     name = "FanMTL",
     imageURL = "https://github.com/jobobby04/ShosetsuExtensions/raw/master/icons/wuxia_box.png",
     shrinkURLNovel = "^.-fanmtl%.com",
