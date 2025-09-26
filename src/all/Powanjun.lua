@@ -61,9 +61,9 @@ local GENRES = {
     "Travel Through Time",
 }
 
-return Require("ReadWN")("https://www.powanjun.cc", {
+return Require("ReadWN")("https://www.powanjuan.cc", {
     id = 1308639960,
-    name = "Powanjun",
+    name = "Powanjuan",
     imageURL = "https://github.com/jobobby04/ShosetsuExtensions/raw/master/icons/wuxia_box.png",
     shrinkURLNovel = "^.-fanmtl%.com",
     hasCloudFlare = true,
@@ -76,28 +76,28 @@ return Require("ReadWN")("https://www.powanjun.cc", {
             increments = false,
             selector = "#latest-updates .novel-list.grid.col .novel-item a",
             url = function(data)
-                return "https://www.powanjun.cc"
+                return "https://www.powanjuan.cc"
             end
         },
         {
             name = "Popular Daily Updates",
             increments = true,
             url = function(data)
-                return "https://www.powanjun.cc/list/all/all-lastdotime-" .. (data[PAGE] - 1) .. ".html"
+                return "https://www.powanjuan.cc/list/all/all-lastdotime-" .. (data[PAGE] - 1) .. ".html"
             end
         },
         {
             name = "Most Popular",
             increments = true,
             url = function(data)
-                return "https://www.powanjun.cc/list/all/all-onclick-" .. (data[PAGE] - 1) .. ".html"
+                return "https://www.powanjuan.cc/list/all/all-onclick-" .. (data[PAGE] - 1) .. ".html"
             end
         },
         {
             name = "New to Web Novels",
             increments = true,
             url = function(data)
-                return "https://www.powanjun.cc/list/all/all-newstime-" .. (data[PAGE] - 1) .. ".html"
+                return "https://www.powanjuan.cc/list/all/all-newstime-" .. (data[PAGE] - 1) .. ".html"
             end
         }
     },
